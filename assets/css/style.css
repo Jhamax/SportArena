@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#lapangan {
+    scroll-margin-top: 90px;
+}
+
+.input-password-group .form-control {
+    border-radius: 14px 0 0 14px;
+}
+
+.input-password-group .btn-password-toggle {
+    border: 1px solid #dee2e6;
+    border-left: 0;
+    border-radius: 0 14px 14px 0;
+    background: #ffffff;
+    color: #6b7280;
+    padding: 12px 14px;
+}
+
+.input-password-group .btn-password-toggle:hover {
+    background: #f8fafc;
+    color: #198754;
+}
+
+.input-password-group .form-control:focus {
+    z-index: 3;
+}
